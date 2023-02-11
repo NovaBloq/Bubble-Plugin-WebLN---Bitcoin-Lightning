@@ -1,0 +1,32 @@
+{
+    "caption": "Make a Payment",
+    "fields": {
+        "AAd": {
+            "caption": "Request the user to send a keysend payment. This is a spontaneous payment that does not require an invoice and only needs a destination public key and and amount.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        },
+        "AAe": {
+            "caption": "This action will trigger \"Paid\" event if sent successfully.",
+            "editor": "Label",
+            "name": "info2",
+            "rank": 1
+        },
+        "AAf": {
+            "caption": "Destination",
+            "doc": "Hex encoded public key of the destination node. This is a string of length 66 that starts either with 02 or 03.",
+            "editor": "DynamicValue",
+            "name": "destination",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "Amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 3,
+            "value": "number"
+        }
+    }
+}

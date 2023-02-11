@@ -1,0 +1,47 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 300,
+        "width": 400
+    },
+    "display": "⚡Donation Widget",
+    "fields": {
+        "AAS": {
+            "caption": "Color",
+            "default_val": "rgba(32, 201, 151, 1)",
+            "editor": "Color",
+            "name": "color",
+            "rank": 0
+        },
+        "AAT": {
+            "caption": "Name",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "name",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "Receiver",
+            "doc": "Lightning Address, LNURL or Node Id (for keysend payments)",
+            "editor": "DynamicValue",
+            "name": "receiver",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "Image",
+            "default_val": "//s3.amazonaws.com/appforest_uf/f1673965889245x599793618876825100/Transparent%20Logo.svg",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 3,
+            "value": "image"
+        }
+    },
+    "icon": "ion-flash",
+    "property_applications": {
+        "resizable": true
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity"
+    },
+    "demo_page": "https://webln.bubbleapps.io/version-test/webln_free",
+    "description": "The ⚡Lightning Web Standard (WebLN)\nConnect to a wallet such as Alby Extension (getalby), Joule or kWh and interact with Bitcoin Lightning network without code!\n\n# Plugin Features\n- Connect to a Bitcoin Lightning wallet\n- Sign a message\n- Get connected wallet address\n- Detect if a Bitcoin Lightning wallet is installed\n- Pay an Invoice\n- Make a regular Payment\n- Make invoice (Bolt11)\n- Get the payment hash\n- Customisable Donation Widget\n\nDemo:\nhttps://webln.bubbleapps.io/version-test/webln_free\n\n---------------------------------------------------------------------------------------------------\n[b]Join the Web3 NoCode community on Discord:[/b] https://discord.gg/SwfQHfaseu\n---------------------------------------------------------------------------------------------------",
+    "image": "//s3.amazonaws.com/appforest_uf/f1672341959587x585428377784594300/webln_400x.svg.png",
+    "license": "open_source",
+    "link": "https://novabloq.com/contact",
+    "name": "WebLN - Bitcoin Lightning",
+    "plugin_instructions": "# Installation:\n\n1. Add the plugin element on the page.\n2. See the demo app editor for examples of how to use each feature.\n\nMake sure to have Alby Extension installed to be able to test it.\nhttps://getalby.com\n\n# Donation Widget\nIt is located in a separated plugin element called \"WebLN Widget\"\nYou will find all it's settings after adding it on the page."
+}

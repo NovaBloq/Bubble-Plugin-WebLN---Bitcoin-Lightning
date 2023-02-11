@@ -1,0 +1,81 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "⚡WebLN",
+    "events": {
+        "AAF": {
+            "caption": "Connected",
+            "name": "connected"
+        },
+        "AAG": {
+            "caption": "User Rejected",
+            "name": "user_rejected"
+        },
+        "AAH": {
+            "caption": "Unknown Error",
+            "name": "unknown_error"
+        },
+        "AAP": {
+            "caption": "Signed",
+            "name": "signed"
+        },
+        "AAX": {
+            "caption": "Invoice Paid",
+            "name": "invoice_paid"
+        },
+        "AAY": {
+            "caption": "Paid",
+            "name": "paid"
+        }
+    },
+    "fields": {
+        "AAQ": {
+            "caption": "Plugin by novabloq.com",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "icon": "ion-flash",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAI": {
+            "caption": "Is Connected",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_connected",
+            "value": "boolean"
+        },
+        "AAJ": {
+            "caption": "Wallet Is Installed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "wallet_is_installed",
+            "value": "boolean"
+        },
+        "AAO": {
+            "caption": "Signature",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "signature",
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "Payment Hash",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "payment_hash",
+            "value": "text"
+        }
+    }
+}

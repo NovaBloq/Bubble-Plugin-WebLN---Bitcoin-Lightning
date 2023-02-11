@@ -1,0 +1,11 @@
+{
+    "caption": "Connect",
+    "fields": {
+        "AAE": {
+            "caption": "Connect to a Bitcoin Lightning provider, such as Alby, Joule or kWh. It will automatically choose the one that is installed.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    }
+}

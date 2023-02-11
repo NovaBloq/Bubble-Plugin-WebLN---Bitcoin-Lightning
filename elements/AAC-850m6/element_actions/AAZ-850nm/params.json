@@ -1,0 +1,19 @@
+{
+    "caption": "Pay by Invoice",
+    "fields": {
+        "AAa": {
+            "caption": "Request that the user sends a payment for an invoice.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        },
+        "AAb": {
+            "caption": "Invoice",
+            "doc": "BOLT-11 format Invoice",
+            "editor": "DynamicValue",
+            "name": "invoice",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}
